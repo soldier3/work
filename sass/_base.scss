@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "Arnold" ;
+    src: url("../fonts/Arnold BocklinC.ttf"),
+    url("../fonts/Arnold BocklinC.woff") ;
+}
+
+@font-face{
+    font-family: "ProximaNova" ;
+    font-weight: 700;
+    src: url(../fonts/ProximaNova-Bold.ttf) format("ttf"),
+    url(../fonts/ProximaNova-Bold.woff) format("woff");
+}
+
+@font-face{
+    font-family: "ProximaNova" ;
+    src: url(../fonts/ProximaNova-Light.ttf) format("ttf"),
+    url(../fonts/ProximaNova-Light.woff) format("woff");
+    font-weight: 200 ;
+}
+
+@font-face{
+    font-family: "ProximaNova" ;
+    src: url(../fonts/ProximaNova-LightIt.ttf) format("ttf"),
+    url(../fonts/ProximaNova-LightIt.woff) format("woff");
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: "ProximaNova" ;
+    src: url(../fonts/ProximaNova-Regular.ttf) format("ttf"),
+    url(../fonts/ProximaNova-Regular.woff) format("woff");
+}
+@font-face{
+    font-family: "MyriadProR" ;
+    src: url(../fonts/MyriadPro-Regular.ttf) format("ttf"),
+    url(../fonts/MyriadPro-Regular.woff) format("woff");
+}
+
+body{
+    background: url(../img/BG3.jpg) no-repeat center top
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h2{
+    font: 36px Arnold;
+    background: url(../img/h2.png) no-repeat 50% top;
+    height: 105px; 
+    color: #180e0c;   
+    text-align: center;  
+    padding-top: 55px;
+}

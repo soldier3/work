@@ -1,0 +1,83 @@
+
+.contacts{
+    margin-top: 220px;
+    font: 18px Arnold;
+}
+.info{
+    @include center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-logo{
+    color: #fff;
+    padding-left: 60px;
+    margin-right: 25px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+ .img1{
+     background: url(../img/time.png) no-repeat;
+ }
+
+ .img2{
+     background: url(../img/globus.png) no-repeat;
+ }
+
+ .img3{
+     background: url(../img/phone.png) no-repeat;
+ }
+
+ .nav-menu{
+    @include center;
+    color: #fff;
+    font: 28px Arnold;
+    margin-top: 30px;
+    .active{
+           background: radial-gradient(ellipse  at center, rgba(255, 239, 114, 0.6) 0%, transparent);
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around ;
+    }
+
+ }
+ 
+
+ .h2-shadow{
+        margin-top: 350px;
+        background: url("../img/h2-hadow.png") no-repeat 50% top;
+        height: 140px;
+ }
+
+.posters{
+    width:960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .poster{
+    width: 290px;
+    height: 510px;
+    background: url("../img/poster-bg.png") no-repeat;
+    &:first-child {
+        background: url("../img/poster-bg-shadow.png") no-repeat;
+    }
+    img{
+        width:220px;
+        height:305px;
+        margin-top: 28px;
+        margin-left: 37px;
+    }
+    p{
+        text-align: center;
+        padding: 50px 30px 0;
+        font: 18px "ProximaNova";
+        color:#fff;
+    }
+}
